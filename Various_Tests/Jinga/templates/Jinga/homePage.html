@@ -1,0 +1,12 @@
+<title>homePage</title>
+{% extends 'Jinga/wrapper.html' %}
+
+    {% block content %}
+    <p>Здесь работает контент из основного файла homePage.html</p>
+
+    {% include 'Jinga/includes/include_1.html' %}
+    {% include 'Jinga/includes/include_1.html' %}
+    <hr>
+    {% include 'Jinga/includes/include_2.html' %}
+
+    {% endblock %}
